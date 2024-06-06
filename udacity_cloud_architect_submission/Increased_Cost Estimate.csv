@@ -1,0 +1,28 @@
+﻿Estimate summary,,,,,,,,,
+Upfront cost,Monthly cost,Total 12 months cost,Currency,,,,,,
+0,18890.29,226683.48,USD,,,,,,
+,,* Includes upfront cost,,,,,,,
+,,,,,,,,,
+,,,,,,,,,
+Detailed Estimate,,,,,,,,,
+Group hierarchy,Region,Description,Service,Upfront,Monthly,First 12 months total,Currency,Status,Configuration summary
+My Estimate,US East (N. Virginia),,Amazon EC2 ,0,7195.68,86348.16,USD,,"Tenancy (Shared Instances), Operating system (Linux), Workload (Consistent, Number of instances: 12), Advance EC2 instance (m5.4xlarge), Pricing strategy (On-Demand Utilization: 100 %Utilized/Month), Enable monitoring (disabled), EBS Storage amount (50 GB), DT Inbound: Not selected (0 TB per month), DT Outbound: Not selected (0 TB per month), DT Intra-Region: (0 TB per month)"
+My Estimate,US East (N. Virginia),,Amazon Aurora MySQL-Compatible,0,2220.32,26643.84,USD,,"Aurora MySQL Cluster Configuration Option (Aurora Standard), Change records per statement (0.38), Instance Type (db.t4g.large), Nodes (12), Utilization (100 %Utilized/Month), Instance Family (General purpose), Pricing Model (OnDemand), Storage amount (5 TB), Cost for one month of retention (per vCPU per month) (1.5000000000), Cost for each additional month of retention (per vCPU per month) (0.0631000000), Cost for total retention (per vCPU per month) (2.95), Number of hours running on Amazon RDS Extended Support ( per month)"
+My Estimate,US East (N. Virginia),,Amazon CloudFront,0,1694.6,20335.2,USD,,"Data transfer out to internet (20 TB per month), Number of requests (HTTPS) (5 million per month)"
+My Estimate,US East (N. Virginia),,Application Load Balancer,0,629.63,7555.56,USD,,Number of Application Load Balancers (1)
+My Estimate,US East (N. Virginia),,Amazon Route 53,0,1413.5,16962,USD,,"Number of Elastic Network Interfaces (10), Number of domains stored (), Hosted Zones (2), IP (CIDR) blocks (1000)"
+My Estimate,US East (N. Virginia),,AWS Data Transfer,0,0,0,USD,,"DT Inbound: Internet (11 TB per month), DT Outbound: Amazon CloudFront (11 TB per month), DT Intra-Region: (0 TB per month)"
+My Estimate,US East (N. Virginia),,S3 Standard,0,4556.8,54681.6,USD,,S3 Standard storage (200 TB per month)
+My Estimate,US East (N. Virginia),,Data Transfer,0,0,0,USD,,
+My Estimate,US East (N. Virginia),,VPN Connection,0,494,5928,USD,,"Working days per month (22), Number of subnet associations (3)"
+My Estimate,US East (N. Virginia),,Amazon CloudWatch,0,685.753,8229.04,USD,,"Number of Metrics (includes detailed and custom metrics) (100), Number of Lambda functions (50), Number of requests per function (1000 per hour), Standard Logs: Data Ingested (1 TB)"
+,,,,,,,,,
+,,,,,,,,,
+,,,,,,,,,
+Acknowledgement,,,,,,,,,
+"* AWS Pricing Calculator provides only an estimate of your AWS fees and doesn't include any taxes that might apply. Your actual fees depend on a variety of factors, including your actual usage of AWS services.",,,,,,,,,
+NOTE:,,,,,,,,,
+"upgrade ec2 instance from t4g.2xlarge => m5n.4xlarge, add IOPS IO1",,,,,,,,,
+Using cloud watch for tracing logs,,,,,,,,,
+"upgrade Route 53 host zone from 1 to 2, Number of Elastic Network Interfaces from 5 to 10",,,,,,,,,
+double Database Nodes ,,,,,,,,,
